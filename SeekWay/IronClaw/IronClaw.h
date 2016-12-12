@@ -1,6 +1,10 @@
 #ifndef SW_DLL_A
 #define SW_DLL_A
 
+//***********************
+//      Ìú×¦
+
+
 #ifdef _SW_DLL
 #define SW_API __declspec(dllexport)
 #else
