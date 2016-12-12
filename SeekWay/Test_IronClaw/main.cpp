@@ -6,7 +6,7 @@ typedef int (*PFMAX)(int a,int b);
 
 int main()
 {
-	HMODULE dll_test = LoadLibrary(L"IronClaw.dll");
+	HINSTANCE dll_test = LoadLibrary(L"IronClaw.dll");
 
 	DWORD ret = GetLastError();
 
@@ -21,5 +21,7 @@ int main()
 	int x = 2,y = 3;
 
 	cout << maxnum(x,y) << endl;
+
+	system("pause");
 	return 0;
 }
