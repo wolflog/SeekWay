@@ -6,3 +6,7 @@ Look for the way to be successful
 test dll function
 
 /***********************************************************/
+2016-12-12 10:00
+test dll function successful
+
+/***********************************************************/
