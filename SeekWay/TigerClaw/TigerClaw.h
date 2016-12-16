@@ -1,5 +1,5 @@
-#ifndef SW_DLL_A
-#define SW_DLL_A
+#ifndef SW_DLL_B
+#define SW_DLL_B
 
 #ifdef _SW_DLL
 #define SW_API __declspec(dllexport)
@@ -12,11 +12,11 @@ extern "C"
 {
 #endif
 
-// export function
-SW_API int GetMax(int a,int b);
+
+
 
 #ifdef __cplusplus
-}
+};
 #endif
 
 #endif

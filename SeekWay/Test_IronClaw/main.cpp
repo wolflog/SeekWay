@@ -12,7 +12,7 @@ int main()
 
 	cout << "last error " << ret << endl;
 
-	PFMAX maxnum = (PFMAX)GetProcAddress(dll_test,"get_max");
+	PFMAX maxnum = (PFMAX)GetProcAddress(dll_test,"GetMax");
 
 	ret = GetLastError();
 
@@ -21,6 +21,10 @@ int main()
 	int x = 2,y = 3;
 
 	cout << maxnum(x,y) << endl;
+
+	cout << "export variable" << endl;
+	 
+	cout << *(int *)GetProcAddress(dll_test,"num_data") << endl;
 
 	system("pause");
 	return 0;

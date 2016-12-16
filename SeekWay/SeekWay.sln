@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TigerClaw", "TigerClaw\TigerClaw.vcproj", "{E88A259F-BE3C-413A-8ED1-E91E60AAC921}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -32,6 +34,12 @@ Global
 		{058F1957-425F-49CE-A8D6-1CBF621D33EA}.Release|Win32.ActiveCfg = Release|Win32
 		{058F1957-425F-49CE-A8D6-1CBF621D33EA}.Release|Win32.Build.0 = Release|Win32
 		{058F1957-425F-49CE-A8D6-1CBF621D33EA}.Release|x64.ActiveCfg = Release|Win32
+		{E88A259F-BE3C-413A-8ED1-E91E60AAC921}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E88A259F-BE3C-413A-8ED1-E91E60AAC921}.Debug|Win32.Build.0 = Debug|Win32
+		{E88A259F-BE3C-413A-8ED1-E91E60AAC921}.Debug|x64.ActiveCfg = Debug|Win32
+		{E88A259F-BE3C-413A-8ED1-E91E60AAC921}.Release|Win32.ActiveCfg = Release|Win32
+		{E88A259F-BE3C-413A-8ED1-E91E60AAC921}.Release|Win32.Build.0 = Release|Win32
+		{E88A259F-BE3C-413A-8ED1-E91E60AAC921}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
