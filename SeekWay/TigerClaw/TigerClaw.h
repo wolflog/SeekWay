@@ -7,16 +7,22 @@
 #define SW_API __declspec(dllimport)
 #endif
 
-#ifdef __cplusplus
-extern "C"
+class SW_API TigerClaw
 {
-#endif
-
-
-
-
-#ifdef __cplusplus
+public:
+	TigerClaw();
+	~TigerClaw();
+	int Attack();
+	int Intens();
+	int Ware();
+private:
+	int num_damage;
+	int num_type;
+	int num_power;
+	int num_physique;
+	int num_agile;
+	int num_mana;
 };
-#endif
+
 
 #endif

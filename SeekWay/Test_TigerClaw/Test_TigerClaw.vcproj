@@ -2,9 +2,9 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9.00"
-	Name="IronClaw_Test"
-	ProjectGUID="{058F1957-425F-49CE-A8D6-1CBF621D33EA}"
-	RootNamespace="Test_IronClaw"
+	Name="TigerClaw_Test"
+	ProjectGUID="{0ED13AE7-7326-4C8A-9DF2-391F045631BA}"
+	RootNamespace="Test_TigerClaw"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
 	>
@@ -114,6 +114,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="2"
 				EnableIntrinsicFunctions="true"
+				AdditionalIncludeDirectories="..\TigerClaw"
 				PreprocessorDefinitions="WIN32;NDEBUG;_CONSOLE"
 				RuntimeLibrary="2"
 				EnableFunctionLevelLinking="true"
@@ -132,7 +133,9 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
+				AdditionalDependencies="TigerClaw.lib"
 				LinkIncremental="1"
+				AdditionalLibraryDirectories="..\Release"
 				GenerateDebugInformation="true"
 				SubSystem="1"
 				OptimizeReferences="2"
