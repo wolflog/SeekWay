@@ -1,0 +1,7 @@
+;Author: SuraWolf
+;Date:2016-12-16
+;Test export fuction and variable
+
+LIBRARY	"IronClaw"
+EXPORTS
+	num_data DATA ;DATA为导出变量
