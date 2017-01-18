@@ -283,6 +283,66 @@
 			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
 			>
 		</Filter>
+		<Filter
+			Name="control"
+			>
+			<File
+				RelativePath=".\ButtonUI.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ButtonUI.h"
+				>
+			</File>
+			<File
+				RelativePath=".\EditUI.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\EditUI.h"
+				>
+			</File>
+			<File
+				RelativePath=".\OptionUI.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\OptionUI.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ProgressUI.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ProgressUI.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ScrollbarUI.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ScrollbarUI.h"
+				>
+			</File>
+			<File
+				RelativePath=".\SliderUI.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\SliderUI.h"
+				>
+			</File>
+			<File
+				RelativePath=".\TextUI.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\TextUI.h"
+				>
+			</File>
+		</Filter>
 	</Files>
 	<Globals>
 	</Globals>

@@ -21,6 +21,14 @@
 #include "UICombo.h"
 #include "UIComonControls.h"
 #include "UIActiveX.h"
+#include "ButtonUI.h"
+#include "OptionUI.h"
+#include "EditUI.h"
+#include "ProgressUI.h"
+#include "ScrollbarUI.h"
+#include "SliderUI.h"
+#include "TextUI.h"
+
 
 #include "UIMarkup.h"
 #include "UIDlgBuilder.h"
