@@ -2,9 +2,9 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9.00"
-	Name="SeekWay"
-	ProjectGUID="{4DE5749E-0757-4502-960A-0EF57753AA4A}"
-	RootNamespace="SeekWay"
+	Name="SuraUI"
+	ProjectGUID="{E8161C8E-549F-4D4E-9176-ED993772CA8A}"
+	RootNamespace="SuraUI"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
 	>
@@ -41,7 +41,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_USRDLL;SEEKWAY_EXPORTS"
+				PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_USRDLL;SURAUI_EXPORTS"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="3"
@@ -114,7 +114,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="2"
 				EnableIntrinsicFunctions="true"
-				PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_USRDLL;_SW_DLL"
+				PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_USRDLL;SURAUI_EXPORTS"
 				RuntimeLibrary="2"
 				EnableFunctionLevelLinking="true"
 				UsePrecompiledHeader="0"
@@ -171,15 +171,51 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\DllMain.cpp"
+				RelativePath=".\StdAfx.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\ProcessX.cpp"
+				RelativePath=".\UIActiveX.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\YString.cpp"
+				RelativePath=".\UIBase.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\UICombo.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\UIComonControls.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\UIContainer.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\UIDlgBuilder.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\UIlib.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\UIList.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\UIManager.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\UIMarkup.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\UIRender.cpp"
 				>
 			</File>
 		</Filter>
@@ -189,15 +225,55 @@
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
 			<File
-				RelativePath=".\DeityList.h"
+				RelativePath=".\stb_image.c"
 				>
 			</File>
 			<File
-				RelativePath=".\ProcessX.h"
+				RelativePath=".\StdAfx.h"
 				>
 			</File>
 			<File
-				RelativePath=".\YString.h"
+				RelativePath=".\UIActiveX.h"
+				>
+			</File>
+			<File
+				RelativePath=".\UIBase.h"
+				>
+			</File>
+			<File
+				RelativePath=".\UICombo.h"
+				>
+			</File>
+			<File
+				RelativePath=".\UIComonControls.h"
+				>
+			</File>
+			<File
+				RelativePath=".\UIContainer.h"
+				>
+			</File>
+			<File
+				RelativePath=".\UIDlgBuilder.h"
+				>
+			</File>
+			<File
+				RelativePath=".\UIlib.h"
+				>
+			</File>
+			<File
+				RelativePath=".\UIList.h"
+				>
+			</File>
+			<File
+				RelativePath=".\UIManager.h"
+				>
+			</File>
+			<File
+				RelativePath=".\UIMarkup.h"
+				>
+			</File>
+			<File
+				RelativePath=".\UIRender.h"
 				>
 			</File>
 		</Filter>
